@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      // nie chcem aby "any" dodawało się automatycznie
+      "noImplicitAny": true,
+      // tworzenie enum'ów
+      "preserveConstEnums": true,
+      // szukanie błędów w pliku TypeScripct
+      "sourceMap": true,
+      // wersja Ecma Script
+      "target": "ES6",
+      // Iterowanie ??
+      "downlevelIteration": true,
+      // 
+      "lib": ["dom", "es6", "dom.iterable"],
+      // folder wyjściowy
+      "outDir": "dist",
+      // dekoratory
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      // automatyczne paczki dodatkowe (@types/ (niebieska ikonka))
+      "moduleResolution": "Node"
+    }
+  }
